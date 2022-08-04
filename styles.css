@@ -1,3 +1,41 @@
-body {
-    background-color: grey;
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 50px;
+}
+
+button {
+    background-color: blue;
+    color: yellow;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: medium;
+}
+
+.header {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.box1, .box2, .box3 {
+    display: flex;
+    padding: 30px;
+}
+
+.image {
+    border-radius: 20px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+}
+
+.image-placeholder {
+    height: 216px;
+    width: 396px;
+    border-style: solid;
+    background-color: green;
 }
