@@ -1,0 +1,42 @@
+
+body {
+    background-color: rgb(53, 53, 53);
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bold;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.information {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
